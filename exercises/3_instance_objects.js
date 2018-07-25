@@ -21,3 +21,9 @@ minions.push(new Minion())
 minions.forEach(minion => {
   minion.attack()
 })
+
+// You'll know you got it right when the console outputs:
+
+// Minion attacks for 9 damage!
+// Minion attacks for 9 damage!
+// Minion attacks for 9 damage!
