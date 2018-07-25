@@ -22,8 +22,12 @@ minions.forEach(minion => {
   minion.attack()
 })
 
-// You'll know you got it right when the console outputs:
+/*
+When run on the console with "node 3_es6_instance_objects.js" you
+should see the following on the console:
 
-// Minion attacks for 9 damage!
-// Minion attacks for 9 damage!
-// Minion attacks for 9 damage!
+Minion attacks for 9 damage!
+Minion attacks for 9 damage!
+Minion attacks for 9 damage!
+ */
+

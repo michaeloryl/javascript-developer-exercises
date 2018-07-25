@@ -72,3 +72,9 @@ function flattenRideshareArray(array) {
 
 assert.deepEqual(expectedArray, flattenRideshareArray(initialArray), 'Arrays are not equal') || console.log('Success')
 
+/*
+When run with "node 1_reshape_data.js" you should see the
+the following on the console:
+
+Success
+ */

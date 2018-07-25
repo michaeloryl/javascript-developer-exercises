@@ -7,4 +7,11 @@ var totalOfOddDigits = oneToFive.reduce(function(accumulator, currentValue) {
   // of only the odd digits
 }, 0)
 
-assert.equal(9, totalOfOddDigits, 'Your total is not 9') || console.log('Success')
+console.log('The total is %d', totalOfOddDigits)
+
+/*
+When run with "node 2_reduce_an_array.js" you should see the
+the following on the console:
+
+The total is 9
+*/
