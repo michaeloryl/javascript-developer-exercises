@@ -25,3 +25,5 @@ So in this particular case, we're looking for you to modify the code so that it 
     sayHello('Michael')
 
 There are obviously many ways this could be done.  You get to choose how you do things, but we might have opinions as to which solutions we prefer to see.  Don't try to make things overly complex, but do make sure that you aren't simply hard-coding an answer.  For example, coding the above exercise so that it used `console.log('Hello, Michael!')` hard coded like that, so that it wouldn't work with a call of `sayHello('Jane')`, is not acceptable.
+
+Once you have completed you exercises, email the URL of your forked project or a ZIP file of the actual project to your recruiter so that it may be forwarded on to my company.
