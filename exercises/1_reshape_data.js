@@ -36,7 +36,7 @@ const initialArray = [
     members: [
       {
         name: 'Aurora',
-        vehicleMake: 'Mazda',
+        vehicleMake: 'Subaru',
       },
       {
         name: 'Chris',

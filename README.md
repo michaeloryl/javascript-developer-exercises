@@ -8,7 +8,8 @@ Each exercise will have the shell of some code as well as a description, in comm
 For example, given the following exercise:
 
     function sayHello(name) {
-      // add code here that will take the name param and say hello in the form of "Hello, Michael!"
+      // add code here that will take the name param and
+      // say hello in the form of "Hello, Michael!" to the console
     }
 
     sayHello('Michael')
@@ -32,4 +33,4 @@ There are obviously many ways this could be done.  You get to choose how you do 
 
 You will need to have a recent version of Node.js installed to run your code.  We make use of some built-in Node modules for testing the results of your code, such as our use of Node's `assert.deepEqual()` call in exercise 1.  You may feel free to use ES6 constructs for your work, as well.
 
-Once you have completed your exercises, email the URL of your forked project or a ZIP file of the actual project to your recruiter so that it may be forwarded on to my company.
+Once you have completed your exercises, email the URL of your forked project or a ZIP file of the actual project to your recruiter so that it may be forwarded on to my company.  If you send a ZIP file, please make sure not to include any `NODE_MODULES` folders.
