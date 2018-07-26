@@ -7,9 +7,10 @@ const wait = function(seconds) {
 }
 
 /*
-Your task is to write a promise chain that waits 1 second
-before writing "I waited 1 second" to the console, waits
-2 more seconds and then writes "I waited 2 more seconds"
+Your task is to write a promise chain using the function
+above that waits 1 second before writing "I waited 1 second"
+to the console, waits 2 more seconds and then writes
+"I waited 2 more seconds"
 */
 
 

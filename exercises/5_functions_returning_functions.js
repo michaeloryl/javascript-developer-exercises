@@ -5,7 +5,7 @@ function createAddFunction(numberToAdd) {
   Implement this function so that it returns a function that will add
   the value of numberToAdd to whatever number parameter is passed to the
   returned function
-   */
+  */
 }
 
 // this should set addFive to a function that will add 5 to whatever
