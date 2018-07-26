@@ -35,4 +35,4 @@ You will need to have a recent version of Node.js installed to run your code.  W
 
 If you don't know how to do something, feel free to look it up and work up a solution.  This is meant to test your ability to get things done, not necessarily to get things done from memory in a few minutes time.  A real development job rarely leaves you disconnected from the internet and with only a few minutes to complete a task....
 
-Once you have completed your exercises, email the URL of your forked project or a ZIP file of the actual project to your recruiter so that it may be forwarded on to my company.
+Once you have completed your exercises, email the URL of your forked project or a ZIP file of the actual project to your recruiter so that it may be forwarded on to me.  If you aren't using a recruiter, then just send it to your point of contact with my company.
