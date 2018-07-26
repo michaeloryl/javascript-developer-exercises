@@ -1,5 +1,5 @@
 # javascript-developer-exercises
-###Some JavaScript developer exercises to use as a pre-screen for job interviews
+#### Some JavaScript developer exercises to use as a pre-screen for job interviews
 
 Just fork this repo (or download it) and look at each of the files in the `exercises` folder.
 
