@@ -10,6 +10,9 @@ function paintMixer(color1, color2) {
 
   The order of the params should not matter.
   */
+  // PLACE YOUR CODE BELOW
+
+  // PLACE YOUR CODE ABOVE
 }
 
 paintMixer('blue', 'red') === 'purple' && console.log('First mix worked')
@@ -20,7 +23,7 @@ paintMixer('apple', 'frog') ==='unknown' && console.log('Apples and frogs don\'t
 
 /*
 If everything works, you should see the following on the console
-when run with "node 4_logic.js":
+when run with "node 3_logic.js":
 
 First mix worked
 Second mix worked

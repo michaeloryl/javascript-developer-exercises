@@ -63,8 +63,13 @@ const expectedArray = [
 
 function flattenRideshareArray(array) {
   var newArray = array.map(function(element) {
-    // Add code here so that flattenRideshareArray will change
-    // initialArray into an array that is equal to expectedArray
+    /*
+    Add code here so that flattenRideshareArray will change
+    initialArray into an array that is equal to expectedArray
+    */
+    // PLACE YOUR CODE BELOW
+
+    // PLACE YOUR CODE ABOVE
   })
 
   return newArray
@@ -73,8 +78,8 @@ function flattenRideshareArray(array) {
 assert.deepEqual(expectedArray, flattenRideshareArray(initialArray), 'Arrays are not equal') || console.log('Success')
 
 /*
-When run with "node 1_reshape_data.js" you should see the
+When run with "node 2_reshape_data.js" you should see the
 the following on the console:
 
 Success
- */
+*/
