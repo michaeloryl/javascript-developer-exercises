@@ -1,10 +1,10 @@
 const assert = require('assert')
 
-const oneToFive = [1, 2, 3, 4, 5]
+const oneToFive = [5, 1, 2, 3, 4]
 
-var totalOfOddDigits = oneToFive.reduce(function(accumulator, currentValue) {
+let totalOfOddDigits = oneToFive.reduce(function(accumulator, currentValue) {
   // Code this reducer so that the result is the sum
-  // of only the odd digits. Do not alter any other code.
+  // of only the odd values (5, 1, and 3). Do not alter any other code.
   // PLACE YOUR CODE BELOW
 
   // PLACE YOUR CODE ABOVE
