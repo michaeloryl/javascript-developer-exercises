@@ -11,8 +11,6 @@ function paintMixer(color1, color2) {
   The order of the params should not matter.
   */
   // PLACE YOUR CODE BELOW
-
-
   var mixers = {
     purple: ['red', 'blue'],
     brown: ['green', 'red'],
