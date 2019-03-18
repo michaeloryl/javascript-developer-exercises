@@ -21,6 +21,8 @@ Place your code that does all of this below this comment block, and
 before the next comment block.
 */
 // PLACE YOUR CODE BELOW
+var subWords = words.map(x => x.substring(1, 3))
+wordList = subWords.join(', ')
 
 // PLACE YOUR CODE ABOVE
 /*
