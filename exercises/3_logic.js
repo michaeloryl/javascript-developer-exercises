@@ -12,6 +12,20 @@ function paintMixer(color1, color2) {
   */
   // PLACE YOUR CODE BELOW
 
+
+  var mixers = {
+    purple: ['red', 'blue'],
+    brown: ['green', 'red'],
+    green: ['blue', 'yellow']
+  }
+
+  for(var key in mixers) {
+    if(mixers[key].includes(color1) && mixers[key].includes(color2)) {
+      return key
+    }
+  }
+
+  return 'unknown'
   // PLACE YOUR CODE ABOVE
 }
 
