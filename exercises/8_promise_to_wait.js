@@ -9,8 +9,8 @@ const wait = function(seconds) {
 /*
 Your task is to write a promise chain using the function
 above that waits 1 second before writing "I waited 1 second"
-to the console, waits 2 more seconds and then writes
-"I waited 2 more seconds"
+to the console, waits 3 more seconds and then writes
+"I waited 3 more seconds"
 */
 
 console.log('Go!')
@@ -21,9 +21,9 @@ console.log('Go!')
 /*
 You console output should look like the following AND wait the
 appropriate number of seconds before writing each line
-when run with "node 7_promises.js":
+when run with "node 8_promise_to_wait.js":
 
 Go!
 I waited 1 second
-I waited 2 more seconds
+I waited 3 more seconds
 */

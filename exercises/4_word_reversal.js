@@ -5,26 +5,26 @@ let assert = require('assert')
   the letters in each word, but leaves the words in the same order
 */
 
-let statement = 'Penn Mutual is a company that sells life insurance'
+let statement = 'Penn Mutual sells life insurance'
 
 function reverseLetters(str) {
-  // PLACE YOUR CODE ABOVE
-
-
   // PLACE YOUR CODE BELOW
+
+
+  // PLACE YOUR CODE ABOVE
 }
 
 let reversedWords = reverseLetters(statement)
 
-assert.equal(reversedWords, 'nneP lautuM si a ynapmoc taht slles efil ecnarusni', 'Strings are not equal') || console.log('Success')
+assert.equal(reversedWords, 'nneP lautuM slles efil ecnarusni', 'Strings are not equal') || console.log('Success')
 
 console.log(reversedWords)
 
 /*
   Your console output should look like the following
-  when run with "node 8_reverse_words.js":
+  when run with "node 4_word_reversal.js":
 
 Success
-nneP lautuM si a ynapmoc taht slles efil ecnarusni
+nneP lautuM slles efil ecnarusni
 
 */

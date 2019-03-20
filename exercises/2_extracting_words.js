@@ -1,8 +1,8 @@
 var words = [
   'cat',
   'zone',
-  'find',
   'supper',
+  'find',
   'storm',
 ]
 
@@ -24,12 +24,12 @@ before the next comment block.
 
 // PLACE YOUR CODE ABOVE
 /*
-When run with "node 1_strings.js" you should see the following on
+When run with "node 2_extracting_words.js" you should see the following on
 the console:
 
 Success
 at, on, in, up, to
 */
 
-wordList === 'at, on, in, up, to' && console.log('Success')
+wordList === 'at, on, up, in, to' && console.log('Success')
 console.log(wordList)

@@ -2,7 +2,7 @@ const assert = require('assert')
 
 const initialArray = [
   {
-    rideShareId: 1,
+    id: 1,
     members: [
       {
         name: 'John',
@@ -15,7 +15,20 @@ const initialArray = [
     ],
   },
   {
-    rideShareId: 2,
+    id: 2,
+    members: [
+      {
+        name: 'Aurora',
+        vehicleMake: 'Subaru',
+      },
+      {
+        name: 'Chris',
+        vehicleMake: 'Huffy',
+      },
+    ],
+  },
+  {
+    id: 3,
     members: [
       {
         name: 'Matt',
@@ -26,21 +39,8 @@ const initialArray = [
         vehicleMake: 'Ford',
       },
       {
-        name: 'Ethan',
-        vehicleMake: 'Nissan',
-      },
-    ],
-  },
-  {
-    rideShareId: 3,
-    members: [
-      {
-        name: 'Aurora',
-        vehicleMake: 'Subaru',
-      },
-      {
-        name: 'Chris',
-        vehicleMake: 'Huffy',
+        name: 'Mark',
+        vehicleMake: 'Ford',
       },
     ],
   },
@@ -53,18 +53,18 @@ const expectedArray = [
   },
   {
     rideShareId: 2,
-    numberMembers: 3,
+    numberMembers: 2,
   },
   {
     rideShareId: 3,
-    numberMembers: 2,
+    numberMembers: 3,
   },
 ]
 
-function flattenRideshareArray(array) {
+function convertRideshareArray(array) {
   var newArray = array.map(function(element) {
     /*
-    Add code here so that flattenRideshareArray will change
+    Add code here so that convertRideshareArray will change
     initialArray into an array that is equal to expectedArray
     */
     // PLACE YOUR CODE BELOW
@@ -75,10 +75,10 @@ function flattenRideshareArray(array) {
   return newArray
 }
 
-assert.deepEqual(expectedArray, flattenRideshareArray(initialArray), 'Arrays are not equal') || console.log('Success')
+assert.deepEqual(expectedArray, convertRideshareArray(initialArray), 'Arrays are not equal') || console.log('Success')
 
 /*
-When run with "node 2_reshape_data.js" you should see the
+When run with "node 3_data_transformation.js" you should see the
 the following on the console:
 
 Success
