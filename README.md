@@ -43,7 +43,7 @@ So in this particular case, we're looking for you to modify the code so that it 
 
     sayHello('Michael')
 
-It's output when run with the `node sample_exercise.js` command should be:
+Its output when run with the `node sample_exercise.js` command should be:
 
     Hello, Michael!
 
