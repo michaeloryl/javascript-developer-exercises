@@ -13,6 +13,31 @@ function paintMixer(color1, color2) {
   */
   // PLACE YOUR CODE BELOW
 
+  if (!color1 || !color2) {
+    return 'unknown';
+  }
+
+  var paintMixer2 = function(colorA, colorB) {
+      if (colorA === 'blue' && colorB === 'red') {
+        return 'purple';
+      }
+      if (colorA === 'green' && colorB === 'red') {
+        return 'brown';
+      }
+      if (colorA === 'red' && colorB === 'yellow') {
+        return 'orange';
+      } 
+      if (colorA === 'blue' && colorB === 'yellow') {
+        return 'green';
+      }
+      return 'unknown';
+  }
+  
+  var colors = [color1, color2]; 
+  colors.sort();
+
+  return paintMixer2(colors[0], colors[1]);
+
   // PLACE YOUR CODE ABOVE
 }
 

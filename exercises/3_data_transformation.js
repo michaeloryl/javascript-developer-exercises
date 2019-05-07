@@ -62,12 +62,19 @@ const expectedArray = [
 ]
 
 function convertRideshareArray(array) {
+  var i = 0;
   var newArray = array.map(function(element) {
     /*
     Add code here so that convertRideshareArray will change
     initialArray into an array that is equal to expectedArray
     */
     // PLACE YOUR CODE BELOW
+
+    i++;
+    return {
+      rideShareId: i,
+      numberMembers: element.members.length
+    }
 
     // PLACE YOUR CODE ABOVE
   })

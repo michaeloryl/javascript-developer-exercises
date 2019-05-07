@@ -10,15 +10,19 @@ let statement = 'Penn Mutual sells life insurance'
 function reverseLetters(str) {
   // PLACE YOUR CODE BELOW
 
+  return str.split(/\W/).map(function(word) {
+    var reversedWord = word.split('').reverse().join('');
+    return reversedWord;
+  }).join(' ');
 
   // PLACE YOUR CODE ABOVE
 }
 
 let reversedWords = reverseLetters(statement)
-
+console.log(reversedWords)
 assert.equal(reversedWords, 'nneP lautuM slles efil ecnarusni', 'Strings are not equal') || console.log('Success')
 
-console.log(reversedWords)
+
 
 /*
   Your console output should look like the following
