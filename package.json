@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/michaeloryl/developer-exercises.git"
+    "url": "git+https://github.com/michaeloryl/javascript-developer-exercises.git"
   },
   "author": "Michael Oryl",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/michaeloryl/developer-exercises/issues"
+    "url": "https://github.com/michaeloryl/javascript-developer-exercises/issues"
   },
-  "homepage": "https://github.com/michaeloryl/developer-exercises#readme",
+  "homepage": "https://github.com/michaeloryl/javascript-developer-exercises#readme",
   "dependencies": {}
 }
