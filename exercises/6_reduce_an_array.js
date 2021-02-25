@@ -1,20 +1,29 @@
 const assert = require('assert')
 
-const numberList = [3, 7, 8, 19, 18, 11, 17, 4, 14, 5]
+const numberList = [
+  {name: 'Fred', age: 53},
+  {name: 'Barney', age: 49},
+  {name: 'Barb', age: 41},
+  {name: 'Star', age: 43},
+  {name: 'Linda', age: 79},
+  {name: 'Paul', age: 78},
+  {name: 'Mary', age: 27},
+]
 
-let totalOfOddNumbers = numberList.reduce(function(accumulator, currentValue) {
-  // Code this reducer function so that the result is the sum
-  // of only the odd values (3, 7, 19, etc). Do not alter any other code.
+let namesList = numberList.reduce(function(accumulator, currentValue) {
+  // Code this reducer function so that the result is an array of
+  // all the names of those people who have an odd numbered age
+  //
   // PLACE YOUR CODE BELOW
 
   // PLACE YOUR CODE ABOVE
-}, 0)
+}, [])
 
-console.log('The total is %d', totalOfOddNumbers)
+console.log('The total is', namesList)
 
 /*
 When run with "node 6_reduce_an_array.js" you should see the
 following on the console:
 
-The total is 62
+The total is [ 'Fred', 'Barney', 'Barb', 'Star', 'Linda', 'Mary' ]
 */
