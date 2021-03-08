@@ -78,7 +78,7 @@ function convertRideshareArray(array) {
 assert.deepEqual(expectedArray, convertRideshareArray(initialArray), 'Arrays are not equal') || console.log('Success')
 
 /*
-When run with "node 3_data_transformation.js" you should see the
+When run with "node 9_data_transformation.js" you should see the
 the following on the console:
 
 Success

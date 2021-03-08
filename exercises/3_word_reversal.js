@@ -10,7 +10,6 @@ let statement = 'Penn Mutual sells life insurance'
 function reverseLetters(str) {
   // PLACE YOUR CODE BELOW
 
-
   // PLACE YOUR CODE ABOVE
 }
 
@@ -22,7 +21,7 @@ console.log(reversedWords)
 
 /*
   Your console output should look like the following
-  when run with "node 4_word_reversal.js":
+  when run with "node 3_word_reversal.js":
 
 Success
 nneP lautuM slles efil ecnarusni

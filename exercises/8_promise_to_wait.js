@@ -18,6 +18,7 @@ console.log('Go!')
 // PLACE YOUR CODE BELOW
 
 // PLACE YOUR CODE ABOVE
+
 /*
 You console output should look like the following AND wait the
 appropriate number of seconds before writing each line

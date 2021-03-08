@@ -25,7 +25,7 @@ paintMixer('apple', 'frog') ==='unknown' && console.log('Apples and frogs don\'t
 
 /*
 If everything works, you should see the following on the console
-when run with "node 1_conditional_logic.js":
+when run with "node 2_conditional_logic.js":
 
 First mix worked
 Second mix worked

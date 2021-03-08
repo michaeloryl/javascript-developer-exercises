@@ -8,7 +8,6 @@ parameter passed to createGetFunction when it was called.
 function createGetFunction(elementToReturn) {
   // PLACE YOUR CODE BELOW
 
-
   // PLACE YOUR CODE ABOVE
 }
 
@@ -25,7 +24,7 @@ console.log('The second element is %s', secondElement)
 
 /*
 You should see the following on the console
-when you run "node 7_functions_returning_functions.js":
+when you run "node 1_functions_returning_functions.js":
 
 Success
 The second element is tigers

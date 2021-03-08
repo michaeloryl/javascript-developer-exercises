@@ -20,11 +20,13 @@ Take that comma delimited list and store it in the wordList variable.
 Place your code that does all of this below this comment block, and
 before the next comment block.
 */
+
 // PLACE YOUR CODE BELOW
 
 // PLACE YOUR CODE ABOVE
+
 /*
-When run with "node 2_extracting_words.js" you should see the following on
+When run with "node 7_extracting_words.js" you should see the following on
 the console:
 
 Success

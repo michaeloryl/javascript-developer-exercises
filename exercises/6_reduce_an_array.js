@@ -13,7 +13,7 @@ const people = [
 let namesList = people.reduce(function(accumulator, currentValue) {
   // Code this reducer function so that the result is an array of
   // all the names of those people who have an odd numbered age
-  //
+
   // PLACE YOUR CODE BELOW
 
   // PLACE YOUR CODE ABOVE
