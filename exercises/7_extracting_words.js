@@ -22,7 +22,18 @@ before the next comment block.
 */
 
 // PLACE YOUR CODE BELOW
-
+// PLACE YOUR CODE BELOW
+const getWordsList = (words) => {
+  let newWordsArr = [];
+  words.forEach(word => {
+    if (word.length >= 3) {
+      let newWord = word.slice(1, 3);
+      newWordsArr.push(newWord);
+    }
+  })
+  return newWordsArr.join(', ');
+}
+wordList = getWordsList(words);
 // PLACE YOUR CODE ABOVE
 
 /*

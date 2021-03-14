@@ -16,20 +16,30 @@
  */
 
 let widgets = [
-  {name:'Thingamabob', sortKey: 3},
-  {name:'Bip', sortKey: 9},
-  {name:'Thingamajig', sortKey: '3'},
-  {name:'Whatchamacallit', sortKey: '9'},
-  {name:'Bop', sortKey: 0},
-  {name:'Whatsit', sortKey: '2'},
-  {name:'Thingy', sortKey: 7},
-  {name:'Doohickey', sortKey: '5'},
-  {name:'Doodad', sortKey: 2},
+  { name: 'Thingamabob', sortKey: 3 },
+  { name: 'Bip', sortKey: 9 },
+  { name: 'Thingamajig', sortKey: '3' },
+  { name: 'Whatchamacallit', sortKey: '9' },
+  { name: 'Bop', sortKey: 0 },
+  { name: 'Whatsit', sortKey: '2' },
+  { name: 'Thingy', sortKey: 7 },
+  { name: 'Doohickey', sortKey: '5' },
+  { name: 'Doodad', sortKey: 2 },
 ]
 
 function specialSort(el1, el2) {
   // PLACE YOUR CODE BELOW
-
+  let sortKeyVal1 = el1?.sortKey;
+  let sortKeyVal2 = el2?.sortKey;
+  if (typeof sortKeyVal1 === 'string' && typeof sortKeyVal2 === 'string') {
+    return sortKeyVal2 - sortKeyVal1;
+  } else if (typeof sortKeyVal1 === 'string') {
+    return -1;
+  } else if (typeof sortKeyVal2 === 'string') {
+    return 1;
+  } else {
+    return sortKeyVal1 > sortKeyVal2 ? 1 : -1;
+  }
   // PLACE YOUR CODE ABOVE
 }
 
